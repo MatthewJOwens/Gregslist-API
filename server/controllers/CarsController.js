@@ -6,7 +6,7 @@ export class CarsController extends BaseController {
   constructor() {
     super("api/cars")
     this.router
-      .get("", this.getAll)
+      .get('', this.getAll)
       .post('', this.create)
   }
 
